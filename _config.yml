@@ -102,4 +102,7 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: 
+        #github: git@120.46.220.201:binbinxiu/aihu-web.git,main
+        hexo: git@120.46.220.201:blog.git,master
